@@ -1,0 +1,28 @@
+{
+  "name": "stock-screener",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajmalmuhammed/stock-screener.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajmalmuhammed/stock-screener/issues"
+  },
+  "homepage": "https://github.com/ajmalmuhammed/stock-screener#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.1",
+    "nodemon": "^2.0.21",
+    "request": "^2.88.2",
+    "typescript": "^5.0.2"
+  }
+}
